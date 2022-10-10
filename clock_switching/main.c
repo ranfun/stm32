@@ -16,4 +16,5 @@ int main(void){
 	//selecting HSE as sysclk.
 	pRCC->CFGR&=~(0x3<<0);
 	pRCC->CFGR!=(0x1<<0);
-		
+	return 0; 
+}
